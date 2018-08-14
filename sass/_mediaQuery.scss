@@ -1,0 +1,73 @@
+
+@media screen and (max-width: 1300px)  {
+    /* CSS Styles */
+}
+
+/* 1010px Screen */
+@media screen and (max-width: 1010px) {
+}
+
+    /*800px Screen */
+@media screen and (max-width: 980px) {
+    header {
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+	}
+	#menu-icon {
+		display: inline-block;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #BD5D38 ;
+		right:   0;
+		top: -106px;
+		width: 100%;
+	}
+	nav:hover ul {
+		display: block;
+		
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 15px 0;
+		margin: 0;
+	}
+	.img-menu-icon{
+		display:flex;
+
+	}
+    .all_res{
+        position: absolute;
+		left: 15px;
+		top: 150px;
+	}
+	.imgMy{
+		display: none;
+	}
+}
+
+/* 640px Screen */
+@media only screen and (max-width: 760px) {
+	.progress_value{
+		display: inline;
+		position: absolute;
+		right: -371;
+	}
+}
+
+/* Smartphones and iPhones */
+@media screen and (min-device-width: 380px) and (min-device-width: 600px){
+    /* CSS Styles */
+	.progress_value{
+		display: inline;
+		position: absolute;
+		right: -371;
+	}
+}

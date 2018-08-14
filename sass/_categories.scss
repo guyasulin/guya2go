@@ -1,0 +1,114 @@
+.main{
+    margin: 30px auto;
+    width: 98%;
+}
+.progressBar{
+    position: relative;
+    width: 108%;
+    height: -44px;
+    background: #eeeeee;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #222;
+}
+.progressBar-item{
+    width: 50%;
+    background: #eeeeee;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #222;
+}
+.title{
+    position: absolute;
+    width: 91px;
+    height: 45px;
+    padding-left: 3px;
+    float: left;
+    font-weight: bold;
+    color: #fff;
+    line-height: -10.5;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 1000;
+    box-shadow: 2px 0 2px #333;
+    text-shadow: 1px 1px 2px #000;
+    z-index: 10;
+
+}
+.progress_value{
+    position: relative;
+    right: -48px;
+    padding-right: 10px;
+    line-height: 2.5;
+    font-weight: bold;
+    color: #455a64;
+    z-index: 10;
+}
+.progress{
+    height:40px;
+    position: absolute;
+    top: 0px;
+    border-radius: 5px;
+    box-shadow: 2px 0 2px #555;
+    opacity: 0.5;
+}
+.summary{
+    margin-left: 114px;
+    // color: #000;
+}
+.htmlColor{background: #b71c1c;}
+.cssColor{background:#4a148e;}
+.jsColor{background:#1b5e20}
+.jqColor{background:#ff6f00}
+.nodeColor{background:#d8a50c62}
+.angularColor{background:#7a7da1}
+.mongoColor{background:lightsalmon}
+.expressColor{background:lightskyblue}
+.html{background: #ec407a;}
+.css{background: #ab47bc;}
+.js{background: #5c6bc0;}
+.jq{background: #66dd6a;}
+.node{background: #ffca28;}
+.angular{background: #1a237e;}
+.mongo{background: rgba(165, 70, 32, 0.5);}
+.express{background: rgba(15, 57, 83, 0.5);}
+
+.btnkskil {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #999;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgba(153, 153, 153, 0.671);
+    margin-top: 30px;
+  }
+  
+  .btnkskil:hover {background-color: #999}
+  
+  .btnkskil:active {
+    background-color:#BD5D38;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .details{
+      color: black;
+      text-align: center;
+      font-size: 25px;
+  }
+    .progress_value-jq,.progress_value-css,.progress_value-node
+    ,.progress_value-express,.progress_value-mongo,.progress_value-angular
+    ,.progress_value-html
+    {
+        position: relative;
+        right:  -869px;
+        padding-right: 10px;
+        font-weight: bold;
+        color: #455a64;
+    }
+ 
